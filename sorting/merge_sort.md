@@ -1,6 +1,7 @@
 ## Merge Sort
 - Merge sort is a sorting technique based on divide and conquer technique. With worst-case time complexity being Ο(n log n),
 Merge sort first divides the array into equal halves and then combines them in a sorted manner.
+  ![screenshot 2019-01-28 at 11 14 36](https://user-images.githubusercontent.com/8224798/51822951-e3262700-22ee-11e9-89b5-3710948902c6.png)
 
 ```
 def mergeSort(alist):
