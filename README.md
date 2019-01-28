@@ -17,6 +17,7 @@
 …
 - Finally, call insert to insert the element that starts at index n-1 n−1 into the sorted subarray in indices 0 through n-2 n−2.
 ### Merge Sort
+ ![screenshot 2019-01-28 at 11 14 36](https://user-images.githubusercontent.com/8224798/51822951-e3262700-22ee-11e9-89b5-3710948902c6.png)
 - Divide by finding the number q q of the position midway between p p and r r. Do this step the same way we found the midpoint in binary search: add p p and r r, divide by 2, and round down.
 - Conquer by recursively sorting the subarrays in each of the two subproblems created by the divide step. That is, recursively sort the subarray array[p..q] and recursively sort the subarray array[q+1..r].
 - Combine by merging the two sorted subarrays back into the single sorted subarray array[p..r].
