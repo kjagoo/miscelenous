@@ -2,6 +2,8 @@
 
 - The A* search algorithm is an extension of Dijkstra's algorithm useful for finding the lowest cost path between two nodes (aka vertices) of a graph. 
 
+![screenshot 2019-01-28 at 16 23 02](https://user-images.githubusercontent.com/8224798/51839009-02d24500-2319-11e9-9bf2-821f627b97f4.png)
+
 ```
 from __future__ import print_function
 import matplotlib.pyplot as plt
