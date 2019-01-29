@@ -132,3 +132,125 @@ s/test/another test/
 $ sed -f mycommands myfile
 ```
 
+sed flags 
+- g, replace all occurrences.
+- A number, the occurrence number for the new text that you want to substitute.
+- p, print the original content.
+- w file: means write the results to a file.
+
+limiting sed to:
+1. a range of lines
+```sed '2s/test/another test/' myfile ```
+subtitutes on the second line
+```sed '2,3s/test/another test/' myfile ```
+subtitutes from the 2nd to 3rd line
+```sed '2,$s/test/another test/' myfile```
+from the 2nd line to the end of the file
+
+2. a pattern that matches a specific line
+``` $ sed '/likegeeks/s/bash/csh/' /etc/passwd```
+
+delete lines with sed
+``` $ sed '2d' myfile```
+- deletes the second line from the stream, not the original file
+```$ sed '2,3d' myfile```
+- deleting in range
+``` $ sed '/test 1/d' myfile```
+- deleting if match
+```$ sed '/second/,/fourth/d' myfile```
+- deleting using 2 patterns. deleting from the second line to the fouth line
+
+Insert and Append Text
+You can insert or append text lines using the following flags: 
+- (i) flag - insert
+- (a) flag.- append
+- (c) flag.- modify
+- (y) flag - transform characters
+
+(i) flag
+```
+echo "Another test" | sed 'i\First test '
+Another test
+First test
+```
+inserting after `another test`
+
+```
+sed '2i\This is the inserted line.' myfile
+```
+inserts the sentence on the second line. hence the previous 2nd line moves one level down
+
+(a) flag
+```
+$ sed '2a\This is the appended line.' myfile
+```
+this appends the sentence on the second line, hence becomes the new 3rd line and other lines below are moved one level lower
+
+(c) flag - modifying lines
+```
+$ sed '3c\This is a modified line.' myfile
+```
+this replaces the 3rd line 
+
+(y) flag - transform characters
+```
+$ sed 'y/123/567/' myfile
+```
+transforms the occurence of numbers `1,2,3` to `5,6,7`
+
+print line numbers `$ sed '=' myfile`
+
+
+## awk
+>AWK is a programming language designed for text processing and typically used as a data extraction and reporting tool. 
+AWK - the (very old) original from AT&T
+NAWK - A newer, improved version from AT&T
+GAWK - The Free Software foundation's version
+Abilities of AWK
+- Define variables.
+- Use string and arithmetic operators.
+- Use control flow and loops.
+- Generate formatted reports.
+
+Awk can take the following options:
+
+-F fs     To specify a file separator.
+
+-f file     To specify a file that contains awk script.
+
+-v var=value     To declare a variable.
+
+Define variables
+- $0 for the whole line.
+- $1 for the first field.
+- $2 for the second field.
+- $n for the nth field.
+
+```$ awk '{print $1}' myfile`` 
+prints the first field/ word of the line
+
+```
+BEGIN {
+ 
+print "Users and thier corresponding home"
+ 
+print " UserName \t HomePath"
+ 
+print "___________ \t __________"
+ 
+FS=":"
+ 
+}
+ 
+{
+ 
+print $1 "  \t  " $6
+ 
+}
+ 
+END {
+ 
+print "The end"
+ 
+}
+```
