@@ -2,6 +2,8 @@
 Perform sorting one item at a time from index 0.
 0=n^2
 
+![screenshot 2019-01-28 at 17 23 47](https://user-images.githubusercontent.com/8224798/51842778-b3911200-2322-11e9-87a1-96f964f5ed23.png)
+
 ```
 def insertionSort(arr): 
   
