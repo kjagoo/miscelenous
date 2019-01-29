@@ -1,7 +1,13 @@
-## DEv TOOLS COMMANDS
+## DEV TOOLS COMMANDS
+find the following dev tools below:
+1. xargs
+2. cat
+3. expr
+4. sed
+5. awk
 
-### xargs
- >This is a command line utility for building an execution pipeline from standard input.
+### 1. xargs
+ > This is a command line utility for building an execution pipeline from standard input.
  Using xargs allows tools like `echo` and `rm` and `mkdir` to accept standard input as arguments
 
 
@@ -53,7 +59,7 @@ one two three
 ```
 
 
-### cat command
+### 2. cat command
 It has three related functions with regard to text files: displaying them, combining copies of them and creating new ones.
 1. Create file
 ` cat > file` 
@@ -65,9 +71,11 @@ It has three related functions with regard to text files: displaying them, combi
 4. Concatenate files
 `cat file1 file2 file3` or `cat file1 file2 file3 > file4`
 
-### expr
-expr is a command line Unix utility which evaluates an expression and outputs the corresponding value. expr evaluates integer or string expressions, including pattern matching regular expressions.
+
+### 3. expr
+> expr is a command line Unix utility which evaluates an expression and outputs the corresponding value. expr evaluates integer or string expressions, including pattern matching regular expressions.
 uses include searching for a substring in a string, finding its index, as well as other things like performing comparisons and arithmetic operations.
+
 ```
 $ expr 5 - 3
 2
@@ -95,8 +103,9 @@ $ expr $a \| $b
 
 ```
 
-### sed  
-- (stream editor) is a Unix utility that parses and transforms text, using a simple, compact programming language. Used in text manipultion.
+
+### 4. sed  
+> (stream editor) is a Unix utility that parses and transforms text, using a simple, compact programming language. Used in text manipultion.
 1. substitute strings
 ```
 $ echo "welcome to joshua" | sed 's/to/Mr/' 
@@ -112,7 +121,7 @@ sed 's/car/buses/' ./testfile.txt
 There are four busess parked outside
 ```
 
-3.multiple commands
+3. multiple commands
 ```
 $ sed -e '
  
@@ -201,8 +210,8 @@ transforms the occurence of numbers `1,2,3` to `5,6,7`
 print line numbers `$ sed '=' myfile`
 
 
-## awk
->AWK is a programming language designed for text processing and typically used as a data extraction and reporting tool. 
+## 5. awk
+> AWK is a programming language designed for text processing and typically used as a data extraction and reporting tool. 
 AWK - the (very old) original from AT&T
 NAWK - A newer, improved version from AT&T
 GAWK - The Free Software foundation's version
@@ -254,3 +263,4 @@ print "The end"
  
 }
 ```
+![screenshot 2019-01-29 at 15 18 56](https://user-images.githubusercontent.com/8224798/51908077-d3374180-23d9-11e9-84f4-6f69134e33f5.png)
