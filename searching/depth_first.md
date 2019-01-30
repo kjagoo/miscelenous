@@ -3,6 +3,7 @@ To traverse the graph in a depthwise motion:
  
 ![screenshot 2019-01-28 at 16 10 31](https://user-images.githubusercontent.com/8224798/51838877-a2db9e80-2318-11e9-8b69-917ea03da7ea.png)
 
+The implementation below uses the stack data-structure to build-up and return a set of vertices that are accessible within the subjects connected component. Using Python’s overloading of the subtraction operato
 ```
 def dfs(graph, start):
     visited, stack = set(), [start]
