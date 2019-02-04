@@ -12,7 +12,7 @@
   - Assertions check if the program indeed maintains the properties or invariants that your code relies on. 
 
 4. Use debuggers.
-   - Setting breakpoints in the program, stepping into and over functions, watching program expressions, and inspecting the memory contents at selected points during the execution will give all  the needed run-time information without generating large, hard-to-read log files.
+  - Setting breakpoints in the program, stepping into and over functions, watching program expressions, and inspecting the memory contents at selected points during the execution will give all  the needed run-time information without generating large, hard-to-read log files.
 
 5. Backtracking
   - One option is to start from the point where to problem occurred and go back through the code to see how that might have happened.
