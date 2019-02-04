@@ -27,3 +27,24 @@ Contents
  - MD5
  - Linear Probing
  - Collisions# miscelenous
+
+## 5. [Object Oriented Design](https://github.com/kjagoo/miscelenous/blob/master/OOD/ood.md)
+ - OOD process
+ - context diagram, class diagram , object diagram
+ - Principles in OOP
+
+## 6. [Problem Solving skills](https://github.com/kjagoo/miscelenous/blob/master/ProblemSolving/problemsolving.md)
+ - Problem statement
+ - Cause and effect analysis
+ - Possible solutions
+ - Trade-off analysis on solutions
+ - Implementation
+
+## 7. [Debugging](https://github.com/kjagoo/miscelenous/blob/master/Debugging/debugging.md)
+ - Incremental and bottom-up program development.
+ - Instrument program to log information.
+ - Use debuggers.
+ - Backtracking
+ - Problem simplification.
+ - Bug clustering.
+ - Error-detection tools.
