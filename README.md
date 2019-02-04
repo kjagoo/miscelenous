@@ -4,6 +4,9 @@ Contents
  2. [Sorting Algorithms](https://github.com/kjagoo/miscelenous/tree/master/sorting)
  3. [Developer tools](https://github.com/kjagoo/miscelenous/tree/master/dev_tools)
  4. [Hashing](https://github.com/kjagoo/miscelenous/tree/master/Hashing)
+ 5. [Object Oriented Design](https://github.com/kjagoo/miscelenous/blob/master/OOD/ood.md)
+ 6. [Problem Solving skills](https://github.com/kjagoo/miscelenous/blob/master/ProblemSolving/problemsolving.md)
+ 7. [Debugging](https://github.com/kjagoo/miscelenous/blob/master/Debugging/debugging.md)
 
 ## 1. [Search Alogithms](https://github.com/kjagoo/miscelenous/tree/master/searching)
  - [A* Search](https://github.com/kjagoo/miscelenous/blob/master/searching/a_star.md)
