@@ -13,6 +13,7 @@
         - Determine Deeper Causes
         - Identify Root Causes
     ```
+    ![screenshot 2019-02-04 at 11 11 22](https://user-images.githubusercontent.com/8224798/52196667-bf725c00-286d-11e9-81b1-f27808559065.png)
 
 3. develop possible solutions to the problem 
     -  problem solving methods you can use for coming up with solutions are brainstorming and mind mapping
