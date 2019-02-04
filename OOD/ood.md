@@ -52,5 +52,11 @@ object diagram:
 Object design:
 <img width="832" alt="screenshot 2019-02-02 at 15 45 34" src="https://user-images.githubusercontent.com/8224798/52164471-e95b3f80-2702-11e9-93a4-6c2ce6292335.png">
 
+## Principles used in OOD and OOP
+- Encapsulation - is the process of binding both attributes and methods together within a class
+- Data Hiding - a class is designed such that its data (attributes) can be accessed only by its class methods and insulated from direct outside access.
+- Message Passing - Objects in a system may communicate with each other using message passing. 
+- Inheritance -  this is the mechanism that permits new classes to be created out of existing classes by extending and refining its capabilities. 
+- Polymorphism - Polymorphism allows objects with different internal structures to have a common external interface. Polymorphism is particularly effective while implementing inheritance.
 
 
