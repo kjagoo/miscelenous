@@ -1,6 +1,6 @@
 # Knowledge points
 Contents
- 1. [Search Alogithms](https://github.com/kjagoo/miscelenous/tree/master/searching)
+ 1. [Search Algorithms](https://github.com/kjagoo/miscelenous/tree/master/searching)
  2. [Sorting Algorithms](https://github.com/kjagoo/miscelenous/tree/master/sorting)
  3. [Developer tools](https://github.com/kjagoo/miscelenous/tree/master/dev_tools)
  4. [Hashing](https://github.com/kjagoo/miscelenous/tree/master/Hashing)
